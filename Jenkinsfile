@@ -99,7 +99,7 @@ pipeline {
                 //     sh "kops validate cluster --name=kubevpro.learningdevops1008.software --state=s3://vprofile-kops-state11 --wait 7m"
                 // }
                 // sh "kubectl create namespace prod"
-                sh "helm upgrade --install --force vprofile-stack helm/vprofilechart --set appimage=${registry}:V${BUILD_NUMBER} --namespace prod"
+                sh "helm upgrade --install --force --create-namespace vprofile-stack helm/vprofilechart --set appimage=${registry}:V${BUILD_NUMBER} --namespace prod"
             }
         }
     }
