@@ -98,6 +98,12 @@ pipeline {
         stage('kubernetes Deploy'){
             agent{label 'KOPS'}
             steps{
+                sh "kops create cluster --name=kubevpro.learningdevops1008.software --state=s3://vprofile-kops-state11 --zones=us-east-1a,us-east-1b --node-count=2 --node-size=t2.micro --master-size=t2.medium --dns-zone=kubevpro.learningdevops1008.software --node-volume-size=8 --master-volume-size=8"
+                sh "kops update cluster --name=kubevpro.learningdevops1008.software --yes --admin --state=s3://vprofile-kops-state11"
+                timeout(time: 7, unit: 'MINUTES') {
+                            sh "kops validate cluster --name=kubevpro.learningdevops1008.software --state=s3://vprofile-kops-state11 --wait 7m"
+                        }    
+                sh "kubectl create namespace prod"
                 sh "helm upgrade --install --force vprofile-stack helm/vprofilechart --set appimage=${registry}:v${BUILD_NUMBER} --namespace prod"
             }
         }
