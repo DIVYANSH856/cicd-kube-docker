@@ -12,9 +12,7 @@
 - [Workflow](#workflow)
 - [Benefits](#benefits)
 - [Getting Started](#getting-started)
-- [Contributors](#contributors)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+
 
 ---
 
