@@ -1,6 +1,6 @@
 # CICD-Kube-Docker
 
-![Project Image](images/project-image.png)
+![Project Image](workflow.jpg)
 
 > Automating CI/CD with Kubernetes, Docker, and Helm.
 
