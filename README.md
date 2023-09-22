@@ -1,6 +1,6 @@
 # CICD-Kube-Docker
 
-![Project Image](workflow.jpg)
+![Project Flowchart](<iframe src="https://drive.google.com/file/d/13fSS1P2OGf3Ky0PfDCZ3eB_jnXDQQWxN/preview" width="640" height="480" allow="autoplay"></iframe>)
 
 > Automating CI/CD with Kubernetes, Docker, and Helm.
 
