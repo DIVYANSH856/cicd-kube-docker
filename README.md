@@ -1,6 +1,7 @@
 # CICD-Kube-Docker
 
-![Project Flowchart](<iframe src="https://drive.google.com/file/d/13fSS1P2OGf3Ky0PfDCZ3eB_jnXDQQWxN/preview" width="640" height="480" allow="autoplay"></iframe>)
+[![Flow Chart](https://drive.google.com/uc?id=13fSS1P2OGf3Ky0PfDCZ3eB_jnXDQQWxN)](https://drive.google.com/file/d/13fSS1P2OGf3Ky0PfDCZ3eB_jnXDQQWxN/view?usp=sharing)
+
 
 > Automating CI/CD with Kubernetes, Docker, and Helm.
 
