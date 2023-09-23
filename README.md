@@ -2,7 +2,7 @@
 
 [![Flow Chart](Fchart.png)](http://www.youtube.com/watch?v=FHX3ZA4RPrw)
 
-> Automating CI/CD with Kubernetes, Docker, and Helm.
+> https://divyanshkohli.hashnode.dev/from-code-to-cluster-implementing-cicd-for-kubernetes-and-docker#heading-now-lets-test-the-pipeline
 
 ---
 
