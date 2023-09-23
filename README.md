@@ -21,6 +21,10 @@
 
 This repository contains the code and configurations for an automated CI/CD pipeline that deploys a Java application to a Kubernetes cluster using Docker, Kops, and Helm. The pipeline automates the entire process, from code commits to deployment, with a focus on maintaining code quality and scalability.
 
+- Check out the detailed blog post for a step-by-step guide : 
+
+https://divyanshkohli.hashnode.dev/from-code-to-cluster-implementing-cicd-for-kubernetes-and-docker
+
 ---
 
 ## Workflow
