@@ -19,7 +19,7 @@
 
 ## Project Overview
 
-This repository contains the code and configurations for an automated CI/CD pipeline that deploys a Java application to a Kubernetes cluster using Docker and Helm. The pipeline automates the entire process, from code commits to deployment, with a focus on maintaining code quality and scalability.
+This repository contains the code and configurations for an automated CI/CD pipeline that deploys a Java application to a Kubernetes cluster using Docker , kops and Helm. The pipeline automates the entire process, from code commits to deployment, with a focus on maintaining code quality and scalability.
 
 ---
 
