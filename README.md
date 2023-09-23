@@ -88,7 +88,6 @@ Jenkins provides a rich ecosystem of plugins that enhance its functionality. Her
 - **Build Timestamp**: Allows you to timestamp your builds, aiding in versioning and tracking.
 - **Docker**: Simplifies the integration of Docker, making it easy to build and push Docker images.
 
-![Plugins](image3.png)
 
 ### Kops Server
 
@@ -112,6 +111,7 @@ As you can see, we have created 1 master and 2 worker nodes in our cluster. Run 
 - This script includes adjusting system parameters, installing OpenJDK 11, configuring PostgreSQL, downloading and setting up SonarQube, creating a systemd service, configuring Nginx as a reverse proxy, opening necessary ports, and initiating a system reboot.
 - Default username and password will be `admin`.
 
+![Sonarqube](image7.png)
 
 ---
 ## Pipeline Configuration and Plugin Integration with plugins
