@@ -52,6 +52,8 @@ https://divyanshkohli.hashnode.dev/from-code-to-cluster-implementing-cicd-for-ku
    - The application is now accessible to users.
 
 ---
+![Kops](image4.png)
+![Sonarqube](image5.png)
 
 ## AWS Infrastructure Setup
 
@@ -101,7 +103,6 @@ Jenkins provides a rich ecosystem of plugins that enhance its functionality. Her
   - Login username: `ubuntu`
   - Use `kops.pem` with SSH public key.
 
-![Kops](image4.png)
 
 As you can see, we have created 1 master and 2 worker nodes in our cluster. Run `kubectl create namespace Prod` where we will run helm charts with Jenkins.
 
@@ -111,7 +112,6 @@ As you can see, we have created 1 master and 2 worker nodes in our cluster. Run 
 - This script includes adjusting system parameters, installing OpenJDK 11, configuring PostgreSQL, downloading and setting up SonarQube, creating a systemd service, configuring Nginx as a reverse proxy, opening necessary ports, and initiating a system reboot.
 - Default username and password will be `admin`.
 
-![Sonarqube](image5.png)
 
 ---
 ## Pipeline Configuration and Plugin Integration with plugins
@@ -259,6 +259,7 @@ In the Kubernetes deployment stage, we specify an agent as 'Kops', which was cre
 4. Provide the Git repository URL containing your Jenkinsfile. This is where your project's code is hosted.
 
 5. Save the pipeline configuration.
+   
 
 ## Triggering a Build
 
@@ -267,6 +268,8 @@ Manually trigger a build to ensure that everything is set up correctly. This ste
 ## Testing the Pipeline
 
 With the pipeline successfully in action, it's crucial to confirm that Helm has deployed our application to the Kubernetes cluster. Take a closer look at the deployment to ensure it meets expectations.
+
+![Sonarqube](image5.png)
 
 ## Deployment
 
