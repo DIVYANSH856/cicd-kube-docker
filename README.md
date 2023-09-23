@@ -204,7 +204,8 @@ pipeline {
 ```
 ## Jenkinsfile Configuration
 
-The Jenkinsfile provided in this repository is the heart of our CI/CD pipeline. It orchestrates the entire process, ensuring code quality and scalability throughout the development journey.
+this is our Jenkinsfile which will be placed in our project repository .This comprehensive setup ensures a seamless, automated CI/CD pipeline that maintains code quality and scalability throughout the development process.
+
 
 ### Pipeline Stages
 
@@ -265,5 +266,5 @@ With the pipeline successfully in action, it's crucial to confirm that Helm has 
 
 ## Deployment
 
-Our pipeline has effectively created and started pods and services. Additionally, we've acquired a LoadBalancer external IP, allowing users to access our deployed Tomcat application. Simply navigate to http://YOUR_LOAD_BALANCER_EXTERNAL_IP to interact with the freshly deployed application.
+- Our pipeline has effectively created and started pods and services. Additionally, we've acquired a LoadBalancer external IP, allowing users to access our deployed Tomcat application. Simply navigate to http://YOUR_LOAD_BALANCER_EXTERNAL_IP to interact with the freshly deployed application.
 ---
